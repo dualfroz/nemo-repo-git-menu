@@ -36,7 +36,7 @@ from gi.repository import GObject, Nemo
 from nemoRepoCore import (coreConfig, findEnclosingRepoRoot, gitBinary,
                           launchTerminal, localDirectoryPath, requireCore)
 
-requireCore("1.0.0")
+requireCore("0.1.0")
 
 pluginDefaults = {
     "actions": {
