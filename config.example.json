@@ -1,0 +1,9 @@
+{
+  "terminal_command": null,
+  "actions": {
+    "git_status": true,
+    "git_log": true,
+    "git_fetch": true,
+    "git_pull": true
+  }
+}
