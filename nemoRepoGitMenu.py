@@ -1,14 +1,4 @@
 #!/usr/bin/python3
-"""nemo-repo-git-menu: git commands in Nemo's right click menu.
-
-Entries appear on a folder that is inside a git repository, on the folder
-itself and on the empty background of an open folder. Each one opens a
-terminal in the repository root, runs the command and leaves the shell open
-so the output stays readable.
-
-Requires nemo-repo-core: https://github.com/dualfroz/nemo-repo-core
-"""
-
 import importlib.util
 import os
 import sys
